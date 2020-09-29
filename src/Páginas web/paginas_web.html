@@ -1,279 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Habdes</title>
     <link rel="icon" href="/img/Logo/favicon.ico" sizes="16x16">
     <link href="/img/Logo/favicon-16x16.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
-    <link rel="stylesheet" href="/HABDES/src/Páginas web/paginas_web.css">
-    <link data-react-helmet="true" rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&amp;display=swap" as="style">
+    <link rel="stylesheet" href="/src/Páginas web/paginas_web.css">
+    <link data-react-helmet="true" rel="preload"
+        href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&amp;display=swap" as="style">
     <script src="https://kit.fontawesome.com/b693463453.js" crossorigin="anonymous"></script>
-    <link data-react-helmet="true" href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&amp;display=swap" rel="stylesheet">
+    <link data-react-helmet="true"
+        href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!--BOOSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- CRÉDITOS  
         Icons made by <a href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
     -->
 </head>
+
 <body onload="myFunction()" style="margin:0;">
     <!-- <div id="loader"></div> -->
-    <div class="top-navbar row">
-        <div class="logo-principal col-3">
-            <a href="/HABDES/index.html">HABDES</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm p-3 mb-5 bg-white round">
+        <div class="container">
+            <a class="navbar-brand habdes-name" href="#" style="font-size: 28px;">HABDES</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07"
+                aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse col-md-4 " id="navbarsExample07">
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link " href="#" id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Productos</a>
+                        <div class="dropdown-menu dropdown-menu-right overflow-auto" aria-labelledby="dropdown07">
+                            <div class="container submenu-desplegable" style="width: 35rem; height: auto;">
+                                <div class="container mt-3">
+                                    <h5>PÁGINAS WEB</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6 card border-0 p-4">
+                                        <a href="#" class="text-decoration-none text-secondary">
+                                            <div class="row ">
+                                                <div class="col-sm-6 p-2">
+                                                    <img src="/img/Iconos/online-shop.svg"
+                                                        style="width: 100px;height: 100px;">
+                                                </div>
+                                                <div class="card-body col-sm-6 d-inline p-2">
+                                                    <h6 class="card-tittle ">Landing Page</h6>
+                                                    <span class="card-text">Convierte visitantes en clientes</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 card border-0 p-4">
+                                        <a href="#" class="text-decoration-none text-secondary">
+                                            <div class="row">
+                                                <div class="col-sm-6 d-inline p-2">
+                                                    <img src="/img/Iconos/ecommerce.svg"
+                                                        style="width: 100px;height: 100px;">
+                                                </div>
+                                                <div class="card-body col-sm-6 d-inline p-2">
+                                                    <h6 class="card-tittle">Tienda Virtual</h6>
+                                                    <span class="card-text">Vende tus productos y servicios</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 card border-0 p-4">
+                                        <a href="#" class="text-decoration-none text-secondary">
+                                            <div class="row">
+                                                <div class="col-sm-6 d-inline p-2">
+                                                    <img src="/img/Iconos/laptop.svg"
+                                                        style="width: 100px;height: 100px;">
+                                                </div>
+                                                <div class="card-body col-sm-6 d-inline p-2">
+                                                    <h6 class="card-tittle">Web Corporativa</h6>
+                                                    <span class="card-text">Tu empresa como un activo digital</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 card border-0 p-4">
+                                        <a href="#" class="text-decoration-none text-secondary">
+                                            <div class="row">
+                                                <div class="col-sm-6 d-inline p-2">
+                                                    <img src="/img/Iconos/notebook.svg"
+                                                        style="width: 100px;height: 100px;">
+                                                </div>
+                                                <div class="card-body col-sm-6 d-inline p-2">
+                                                    <h6 class="card-tittle">Blog</h6>
+                                                    <span class="card-text">Crea y comparte tus ideas</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <div class="container mt-4">
+                                    <h5>PLATAFORMAS</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6 card border-0 p-4">
+                                        <a href="#" class="text-decoration-none text-secondary">
+                                            <div class="row">
+                                                <div class="col-sm-6 d-inline p-2">
+                                                    <img src="/img/Iconos/qr-code.svg"
+                                                        style="width: 100px;height: 100px;">
+                                                </div>
+                                                <div class="card-body col-sm-6 d-inline p-2">
+                                                    <h6 class="card-tittle">Herramientas Digitales</h6>
+                                                    <span class="card-text">Lorem ipsum dolor sit amet</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 card border-0 p-4">
+                                        <a href="#" class="text-decoration-none text-secondary">
+                                            <div class="row">
+                                                <div class="col-sm-6 d-inline p-2">
+                                                    <img src="/img/Iconos/cube.svg" style="width: 100px;height: 100px;">
+                                                </div>
+                                                <div class="card-body col-sm-6 d-inline p-2">
+                                                    <h6 class="card-tittle">Plataformas Digitales</h6>
+                                                    <span class="card-text">Lorem ipsum dolor sit amet</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="dropdown07" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Servicios</a>
+                        <div class="dropdown-menu dropdown-menu-right overflow-auto" aria-labelledby="dropdown07">
+                            <div class="container submenu-desplegable" style="width: 30rem;">
+                                <div class="container-fluid mt-4">
+                                    <h5>SERVICIOS</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6 card border-0 p-4">
+                                        <a href="#" class="text-decoration-none text-secondary">
+                                            <div class="row">
+                                                <div class="col-sm-6 d-inline p-2">
+                                                    <img src="/img/Iconos/presentation.svg"
+                                                        style="width: 100px;height: 100px;">
+                                                </div>
+                                                <div class="card-body col-sm-6 d-inline p-2">
+                                                    <h6 class="card-tittle">Herramientas Digitales</h6>
+                                                    <span class="card-text">Lorem ipsum dolor sit amet</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6 card border-0 p-4">
+                                        <a href="#" class="text-decoration-none text-secondary">
+                                            <div class="row">
+                                                <div class="col-sm-6 d-inline p-2">
+                                                    <img src="/img/Iconos/heart.svg"
+                                                        style="width: 100px;height: 100px;">
+                                                </div>
+                                                <div class="card-body col-sm-6 d-inline p-2">
+                                                    <h6 class="card-tittle">Otros servicios</h6>
+                                                    <span class="card-text">Lorem ipsum dolor sit amet</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button type="button" class="boton_contacto">Contacto</button>
+            </div>
         </div>
-        <nav class="navigation-bar col-9">
-            <div>
-                <a href="/HABDES/index.html">Inicio</a>
-            </div>
-            <div class="contenedor-desplegable">
-                <button class="boton-producto">Productos</button>
-                <div class="lista-desplegable">
-                    <div>
-                        <h5>PÁGINAS WEB</h5>
-                    </div>
-                    <div class="lista-desplegable-seccion">
-                        <div class="lista-desplegable-elementos">
-                            <div>
-                                <img src="/HABDES/img/Iconos/online-shop.svg" style="width: 100px;height: 100px;">
-                            </div>
-                            <div>
-                                <div class="lista-desplegable-texto">
-                                    <h6>Landing Page</h6>
-                                    <span>Convierte visitantes en clientes</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lista-desplegable-elementos">
-                            <div>
-                                <img src="/HABDES/img/Iconos/ecommerce.svg" style="width: 100px;height: 100px;">
-                            </div>
-                            <div>
-                                <div class="lista-desplegable-texto">
-                                    <h6>Tienda Virtual</h6>
-                                    <span>Vende tus productos y servicios</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lista-desplegable-elementos">
-                            <div>
-                                <img src="/HABDES/img/Iconos/laptop.svg" style="width: 100px;height: 100px;">
-                            </div>
-                            <div>
-                                <div class="lista-desplegable-texto">
-                                    <h6>Web Corporativa</h6>
-                                    <span>Tu empresa como un activo digital</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lista-desplegable-elementos">
-                            <div>
-                                <img src="/HABDES/img/Iconos/notebook.svg" style="width: 100px;height: 100px;">
-                            </div>
-                            <div>
-                                <div class="lista-desplegable-texto">
-                                    <h6>Blog</h6>
-                                    <span>Crea y comparte tus ideas</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <h5>PLATAFORMAS</h5>
-                    </div>
-                    <div class="lista-desplegable-seccion">
-                        <div class="lista-desplegable-elementos">
-                            <div>
-                                <img src="/HABDES/img/Iconos/qr-code.svg" style="width: 100px;height: 100px;">
-                            </div>
-                            <div>
-                                <div class="lista-desplegable-texto">
-                                    <h6>Herramientas Digitales</h6>
-                                    <span>Lorem ipsum dolor sit amet</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lista-desplegable-elementos">
-                            <div>
-                                <img src="/HABDES/img/Iconos/cube.svg" style="width: 100px;height: 100px;">
-                            </div>
-                            <div>
-                                <div class="lista-desplegable-texto">
-                                    <h6>Plataformas Digitales</h6>
-                                    <span>Lorem ipsum dolor sit amet</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lista-desplegable-background">
-                        <h5>SERVICIOS</h5>
-                    </div>
-                    <div class="lista-desplegable-seccion lista-desplegable-background">
-                        <div class="lista-desplegable-elementos">
-                            <div>
-                                <img src="/HABDES/img/Iconos/presentation.svg" style="width: 100px;height: 100px;">
-                            </div>
-                            <div>
-                                <div class="lista-desplegable-texto">
-                                    <h6>Marketing Digital</h6>
-                                    <span>Lorem ipsum dolor sit amet</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lista-desplegable-elementos">
-                            <div>
-                                <img src="/HABDES/img/Iconos/heart.svg" style="width: 100px;height: 100px;">
-                            </div>
-                            <div>
-                                <div class="lista-desplegable-texto">
-                                    <h6>Otros Servicios</h6>
-                                    <span>Lorem ipsum dolor sit amet</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <a href="https://www.facebook.com/Habdes-111777107217755/?modal=admin_todo_tour">Contacto</a>
-            </div>
-        </nav>
-    </div>
-    <div class="cuerpo row">
+    </nav>
+    <div class="cuerpo">
         <!--DIV PARA BLOQUES DEL CUERPO-->
-        <div class="encabezado_paginas">
-            <div class="encabezado_paginas_elementos">
-                <div>
-                    <img src="/HABDES/img/Logo/Logo-Habdes.png" style="width: 200px;height: 200px;">
-                </div>
-                <div class="encabezado_paginas_texto">
-                    <h1>Tu negocio digital</h1>
-                    <h5>La llave del futuro esta aquí</h5>
+        <div class="container">
+            <div class="row justify-content-md-center row-cols-1">
+                <div class="col">
+                    <img src="/img/Logo/Logo-Habdes.png" class="img-fluid rounded mx-auto d-block"
+                        style="width: 200px;height: 200px;">
+                    <div class="text-center ">
+                        <h1>Tu negocio digital</h1>
+                        <h5 class="font-weight-light">La llave del futuro esta aquí</h5>
+                    </div>
                 </div>
             </div>
         </div>
-        <div>
-            <div class="cuerpo_pagina">
-                <div class="cuerpo_pagina_titulo">
-                    <h1>Landing Page</h1>
-                    <h2>Lorem ipsum dolor sit amet</h2>
-                </div>
-                <div class="websites">
-                    <div class="websites-holder">
-                        <div class="websites-elements">
-                            <a></a>
-                            <a class="boton-vista-previa btn" href="/HABDES/index.html">Vista Previa</a>
-                        </div>
-                        <div class="websites-elements">
+        <div class="container">
+            <div class="container py-5 overflow-auto">
+                <h5>Web Corporativa</h5>
+                <h6>Lorem ipsum dolor sit amet</h6>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 justify-content-md-center">
+                    <div class="card text-right bg-light text-white border-0 m-3" style="width: 250px; height: 250px;">
+                        <div class="card-body">
 
                         </div>
-                        <div class="websites-elements">
+                        <a href="#" class="btn btn-primary border-0 mx-5 mb-2 " style="background-color:#6f42c1;">Vista
+                            previa</a>
+                    </div>
+                    <div class="card text-right bg-light text-white border-0 m-3" style="width: 250px; height: 250px;">
+                        <div class="card-body">
 
                         </div>
-                        <div class="websites-elements">
+                        <a href="#" class="btn btn-primary border-0 mx-5 mb-2 " style="background-color:#6f42c1;">Vista
+                            previa</a>
+                    </div>
+                    <div class="card text-right bg-light text-white border-0 m-3" style="width: 250px; height: 250px;">
+                        <div class="card-body">
 
                         </div>
+                        <a href="#" class="btn btn-primary border-0 mx-5 mb-2 " style="background-color:#6f42c1;">Vista
+                            previa</a>
                     </div>
                 </div>
-                <div class="cuerpo_pagina_titulo">
-                    <h1>Web Corporativa</h1>
-                    <h2>Lorem ipsum dolor sit amet</h2>
-                </div>
-                <div class="websites">
-                    <div class="websites-holder">
-                        <div class="websites-elements">
+            </div>
+            <div class="container py-5 px-2 overflow-auto">
+                <h5>Tienda Virtual</h5>
+                <h6>Lorem ipsum dolor sit amet</h6>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 justify-content-md-center">
+                    <div class="card text-right bg-light text-white border-0 m-3" style="width: 250px; height: 250px;">
+                        <div class="card-body">
 
                         </div>
-                        <div class="websites-elements">
+                        <a href="#" class="btn btn-primary border-0 mx-5 mb-2 " style="background-color:#6f42c1;">Vista
+                            previa</a>
+                    </div>
+                    <div class="card text-right bg-light text-white border-0 m-3" style="width: 250px; height: 250px;">
+                        <div class="card-body">
 
                         </div>
-                        <div class="websites-elements">
+                        <a href="#" class="btn btn-primary border-0 mx-5 mb-2 " style="background-color:#6f42c1;">Vista
+                            previa</a>
+                    </div>
+                    <div class="card text-right bg-light text-white border-0 m-3" style="width: 250px; height: 250px;">
+                        <div class="card-body">
 
                         </div>
-                        <div class="websites-elements">
-
-                        </div>
+                        <a href="#" class="btn btn-primary border-0 mx-5 mb-2 " style="background-color:#6f42c1;">Vista
+                            previa</a>
                     </div>
                 </div>
-                <div class="cuerpo_pagina_titulo">
-                    <h1>Tienda Virtual</h1>
-                    <h2>Lorem ipsum dolor sit amet</h2>
-                </div>
-                <div class="websites">
-                    <div class="websites-holder">
-                        <div class="websites-elements">
+            </div>
+            <div class="container py-5 overflow-auto">
+                <h5>Blog Personal</h5>
+                <h6>Lorem ipsum dolor sit amet</h6>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 justify-content-md-center">
+                    <div class="card text-right bg-light text-white border-0 m-3" style="width: 250px; height: 250px;">
+                        <div class="card-body">
 
                         </div>
-                        <div class="websites-elements">
+                        <a href="#" class="btn btn-primary border-0 mx-5 mb-2 " style="background-color:#6f42c1;">Vista
+                            previa</a>
+                    </div>
+                    <div class="card text-right bg-light text-white border-0 m-3" style="width: 250px; height: 250px;">
+                        <div class="card-body">
 
                         </div>
-                        <div class="websites-elements">
+                        <a href="#" class="btn btn-primary border-0 mx-5 mb-2 " style="background-color:#6f42c1;">Vista
+                            previa</a>
+                    </div>
+                    <div class="card text-right bg-light text-white border-0 m-3" style="width: 250px; height: 250px;">
+                        <div class="card-body">
 
                         </div>
-                        <div class="websites-elements">
-
-                        </div>
+                        <a href="#" class="btn btn-primary border-0 mx-5 mb-2 " style="background-color:#6f42c1;">Vista
+                            previa</a>
                     </div>
                 </div>
-                <div class="cuerpo_pagina_titulo">
-                    <h1>Blog Personal</h1>
-                    <h2>Lorem ipsum dolor sit amet</h2>
-                </div>
-                <div class="websites">
-                    <div class="websites-holder">
-                        <div class="websites-elements">
-
-                        </div>
-                        <div class="websites-elements">
-
-                        </div>
-                        <div class="websites-elements">
-
-                        </div>
-                        <div class="websites-elements">
-
-                        </div>
-                    </div>
-                </div>
-                
             </div>
         </div>
     </div>
     <footer>
-        <div class="footer row">
-            <div class="footer_imagen col-3">
-                <img src="/HABDES/img/Logo/Logo-Habdes-Alterno.png" style="width: 150px; height: 150px;">
-            </div>
-            <div class="footer_informacion col-6 row">
-                <div class="col-4">
-                    <i class="fas fa-envelope"><span> &nbsp;contacto@habdes.pe</span></i>
-                </div>
-                <div class="col-4">
-                    <i class="fas fa-mobile-alt"></i><span> &nbsp;+51 993722873</span>
-                </div>
-                <div class="col-4">
-                    <i class="fas fa-map-marker-alt"></i><span> &nbsp;Av.Pachacutec 2717 - VMT</span>
-                </div>
-            </div>
-            <div class="footer_redes col-3">
-                <i class="fab fa-facebook-square"></i>
-            </div>
-        </div>
+        <div class="footer">
+
     </footer>
+    <!-- JS Particles.js -->
+    <script src="/img/Librerias/particles.js-master/particles.min.js"></script>
+    <script src="/src/Index/Index-JS/app.js"></script>
     <!-- JS Loader -->
     <script>
         var myVar;
-        
+
         function myFunction() {
-          myVar = setTimeout(showPage, 3000);
+            myVar = setTimeout(showPage, 1000);
         }
-        
+
         function showPage() {
-          document.getElementById("loader").style.display = "none";
-          document.getElementById("myDiv").style.display = "block";
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
         }
-        
+
     </script>
+
+    <!--BOOSTRAP JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
