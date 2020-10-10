@@ -7,7 +7,7 @@
     <title>Habdes</title>
     <link rel="icon" href="/img/Logo/favicon.ico" sizes="16x16">
     <link href="/img/Logo/favicon-16x16.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
-    <link rel="stylesheet" href="/src/Index/index.css">
+    <link rel="stylesheet" href="/src/Diseñador/diseñador.css">
     <link data-react-helmet="true" rel="preload"
         href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&amp;display=swap" as="style">
     <script src="https://kit.fontawesome.com/b693463453.js" crossorigin="anonymous"></script>
@@ -25,16 +25,11 @@
     -->
 </head>
 
-<body onload="myFunction()">
-    <!-- ID Particles.js -->
-    <!--
-    <div id="particles-js"></div>
-    <div id="loader"></div>
-    -->
+<body onload="myFunction()" style="margin:0;">
+    <!-- <div id="loader"></div> -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm p-3 mb-5 bg-white rounded">
         <div class="container">
-            <a class="navbar-brand habdes-name" href="/index.html" style="font-size: 28px;"><img
-                    src="/img/Logo/Logo-Habdes.png" width="50" height="50">HABDES</a>
+            <a class="navbar-brand habdes-name" href="/index.html" style="font-size: 28px;">HABDES</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07"
                 aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -196,118 +191,214 @@
             </div>
         </div>
     </nav>
-    <!-------------------------CUERPO---------------------------->
-    <!--------------SECTION_1------------------>
-    <section class="container-md justify-content-center pb-3">
+    <!------------------------SECTION_1---------------------------->
+    <section class="container justify-content-center ">
         <div class="row">
-            <div class="col-6 col-md-6 text-left">
-                <h1>
-                    Transformación digital para tu negocio
-                </h1>
-                <p>Te ayudamos a dar el primer paso, que tu negocio necesita, hacia la era digital</p>
-                <p>Prueba la demo de tu futura página web</p>
+            <div class="container-md text-left col-md-6 my-5 pt-5 ">
+                <h1>Obtén un diseñador gráfico personal</h1>
+                <p class="lead text-muted">Habdes te ofrece un diseñador profesional para ayudarte con todas tus
+                    necesidades creativas. Sin entrevistas, sin contratos, diseños ilimitados.</p>
+                <div class="p-1 text-center">
+                    <button href="#" button type="button" class="boton_contacto my-2">Ver precios</button>
+                    <a href="/src/Contacto/contacto.html">
+                        <button href="#" button type="button" class="boton_contacto_alterno m-2">Contacto</button>
+                    </a>
+                </div>
             </div>
-            <div class="col-6 col-md-6">
-                <img src="/img/Imagenes/Imagen3.svg" class="img-fluid" style="width: 500px;height: 500px;">
+            <div class="container-md text-center col-md-6 ">
+                <img src="/img/Imagenes/undraw_Designer_by46.svg" style="width: 500px; height: 500px;">
             </div>
         </div>
     </section>
-    <!--------------SECTION_2------------------>
-    <section class="justify-content-center py-5">
-        <div class="text-center">
-            <div class="bg-dark text-white py-3">
-                <h5>
-                    Te presentamos
-                </h5>
-                <h1>
-                    Nuestros servicios:
-                </h1>
+    <!------------------------SECTION_2---------------------------->
+    <section class="container justify-content-center py-5">
+        <div class="row py-5">
+            <div class="container-md text-center col-md-6 ">
+                <h1>¿Como funciona?</h1>
+                <p class="lead text-muted">Solicitar diseños en línea nunca ha sido tan fácil. Envíe sus solicitudes
+                    creativas y obtenga los primeros conceptos en 1-2 días hábiles.</p>
+                <div class="p-1 text-center">
+                    <a href="/src/Contacto/contacto.html">
+                        <button href="#" button type="button" class="boton_contacto my-2">Prueba gratis</button>
+                    </a>
+                </div>
             </div>
-            <div class="container-md pt-5">
-                <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link active text-black-50" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                            aria-controls="home" aria-selected="true">Páginas web</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link text-black-50" id="profile-tab" data-toggle="tab" href="/src/Error/404.html" role="tab"
-                            aria-controls="profile" aria-selected="false">Herramientas digitales</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link text-black-50" id="contact-tab" data-toggle="tab" href="/src/Error/404.html" role="tab"
-                            aria-controls="contact" aria-selected="false">Plataformas digitales</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link text-black-50" id="contact-tab" data-toggle="tab" href="#Diseñador_personalizado" role="tab"
-                            aria-controls="contact" aria-selected="false">Diseñador personalizado</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link text-black-50" id="contact-tab" data-toggle="tab" href="#Marketing_digital" role="tab"
-                            aria-controls="contact" aria-selected="false">Marketing digital</a>
-                    </li>
-                </ul>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active pt-4" id="home" role="tabpanel" aria-labelledby="home-tab">
-                        <div class="row container-md ">
-                            <div class="col-md-auto pl-5 ">
-                                <img src="/img/Imagenes/imagen4.svg" style="width: 230px;height: 230px;">
+        </div>
+    </section>
+    <!------------------------SECTION_3---------------------------->
+    <section class="justify-content-center py-4">
+        <div class="text-center">
+            <div class="container shadow-lg p-3 mb-5 bg-white rounded py-3 ">
+                <div>
+                    <h1>¿Comó lo hacemos?</h1>
+                </div>
+                <div class="row py-4">
+                    <div class="col-6">
+                        <div class="row container justify-content-center p-2 m-1 ">
+                            <img src="/img/Iconos/Iconos_Marketing/one.svg" style="width: 50px; height: 50px;">
+                            <div class="p-2 ">
+                                <h5 class="">Envíe su primera solicitud y lo pondremos en contacto con uno de nuestros
+                                    diseñadores</h5>
                             </div>
-                            <div class="col-md-auto p-5">
-                                <h5>Desarrollamos tu el activo digital que tu negocio necesita</h5>
-                                <ul class="list-unstyled text-small text-left">
-                                    <li>- Landing Page</li>
-                                    <li>- Web Corporativa</li>
-                                    <li>- Tienda Virtual</li>
-                                    <li>- Blog</li>
-                                </ul>
-                                <a href="/src/Contacto/contacto.html" class="pl-5">
-                                    <button type="button" class="boton_contacto">¡Lo quiero!</button>
-                                </a>
+                        </div>
+                        <div class="row container justify-content-center p-2 m-1">
+                            <img src="/img/Iconos/Iconos_Marketing/three.svg" style="width: 50px; height: 50px;">
+                            <div class="p-2">
+                                <h5>Se realizaran tantas revisiones como sean necesarias</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                        
+                    <div class="col-6">
+
+                        <div class="row container justify-content-center p-2 m-1">
+                            <img src="/img/Iconos/Iconos_Marketing/two.svg" style="width: 50px; height: 50px;">
+                            <div class="p-2">
+                                <h5>Su diseñador trabajará en su solicitud con un plazo de 1-2 días hábiles</h5>
+                            </div>
+                        </div>
+                        <div class="row container justify-content-center p-2 m-1">
+                            <img src="/img/Iconos/Iconos_Marketing/four.svg" style="width: 50px; height: 50px;">
+                            <div class="p-2">
+                                <h5>Se aprueba el diseño final y se entregan los archivos fuente.</h5>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                        
-                    </div>
-                    <div class="tab-pane fade pt-4" id="Diseñador_personalizado" role="tabpanel" aria-labelledby="contact-tab">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------SECTION_4---------------------------->
+    <section class="container my-5 ">
+        <div class="py-3 ">
+            <h1>¿Qué podemos hacer?</h1>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+                        aria-controls="v-pills-home" aria-selected="true">Plan básico</a>
+                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                        aria-controls="v-pills-profile" aria-selected="false">Plan premium</a>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab">
                         <div class="row">
-                            <div class="col-md-auto pl-5">
-                                <img src="/img/Imagenes/undraw_add_color_19gv.svg" style="width: 200px;height: 200px;">
-                            </div>
-                            <div class="col-md-auto p-5">
-                                <h5 class="text-left">Habdes te brinda un diseñador que se ajusta a tus ideas por el tiempo que necesites</h5>
-                                <ul class="list-unstyled text-small text-left">
-                                    <li>- Un solo precio mensual</li>
-                                    <li>- Sin contratos</li>
-                                    <li>- Cancela cuando quieras</li>                        
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>Banners publicitarios</li>
+                                    <li>Banners para blog</li>
+                                    <li>Flyers, Posters, Banners</li>
+                                    <li>Ilustraciones</li>
+                                    <li>Gráficos y diseños para Podcast</li>
+                                    <li>Gráficos y diseños para tienda virtual</li>
+                                    <li>Gráficos y diseños para redes sociales</li>
+                                    <li>Diseño de publicidad en redes sociales</li>
+                                    <li>Cubierta para libros y libros electrónicos</li>
+                                    <li>Diseño de boletines</li>
+                                    <li>Diseño de menús</li>
+                                    <li>Diseño para merchandising</li>
+
                                 </ul>
-                                <a href="/src/Diseñador/diseñador.html">
-                                    <button type="button" class="boton_contacto">¡Me interesa!</button>
-                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>Diseño de tarjetas de presentación</li>
+                                    <li>Diseño de brochures, catalogues y calendarios</li>
+                                    <li>Diseño de infografías</li>
+                                    <li>Diseño de iconos</li>
+                                    <li>Diseños para eventos en general</li>
+                                    <li>Gráficos y diseños para prendas de vestir</li>
+                                    <li>Diseño de imágenes en miniatura</li>
+                                    <li>Edición de fotográfias</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade pt-4" id="Marketing_digital" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab">
                         <div class="row">
-                            <div class="col-md-auto pl-5">
-                                <img src="/img/Imagenes/undraw_social_thinking_7ule.svg" style="width: 250px;height: 250px;">
-                            </div>
-                            <div class="col-md-auto p-5">
-                                <h5 class="text-left">Impulsemos tu presencia en el mundo digital, nosotros sabemos como</h5>
-                                <ul class="list-unstyled text-small text-left">
-                                    <li>- Redes sociales</li>
-                                    <li>- Publicidad digital</li>
-                                    <li>- Generación de contenido digital</li>
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>Incluye los elementos del plan básico</li>
+                                    <li>Diseño de Landing Pages</li>
+                                    <li>Diseño de Logos</li>
+                                    <li>Diseño de presentaciones en PowerPoint, Prezi y Google Slides</li>
+
                                 </ul>
-                                <a href="/src/Diseñador/diseñador.html">
-                                    <button type="button" class="boton_contacto">¡Me gusta!</button>
-                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>2-3 sec GIF animations</li>
+                                    <li>Light Website</li>
+                                    <li>Brand Guides</li>
+                                </ul>
                             </div>
                         </div>
+
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------SECTION_5---------------------------->
+    <section class="container my-5">
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-4">Precios</h1>
+            <p class="lead">Un precio fijo mensual, diseños ilimitados</p>
+        </div>
+        <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Prueba gratuita</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">S/0 <small class="text-muted">/ mes</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>Dura 1 semana</li>
+                        <li>Todas las funcionalidades del plan básico</li>
+                        <li>Un diseñador dedicado</li>
+                        <li>Cancela en cualquier momento</li>
+                    </ul>
+                    <a href="/src/Contacto/contacto.html" class="text-decoration-none">
+                        <button type="button" class="btn btn-lg btn-block btn-outline-dark">¡Me gusta!</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Plan básico</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">S/180 <small class="text-muted">/ mes</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>Solicitudes ilimitadas</li>
+                        <li>Un diseñador dedicado</li>
+                        <li>Sin contratos</li>
+                        <li>Cancela en cualquier momento</li>
+                    </ul>
+                    <a href="/src/Contacto/contacto.html" class="text-decoration-none">
+                        <button type="button" class="btn btn-lg btn-block btn-dark">¡Lo quiero!</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Plan premium</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">S/250 <small class="text-muted">/ mes</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>Todo el Plan básico</li>
+                        <li>Hasta 2 diseñadores dedicados</li>
+                        <li>Sin contratos</li>
+                        <li>Cancela en cualquier momento</li>
+                    </ul>
+                    <a href="/src/Contacto/contacto.html" class="text-decoration-none">
+                        <button type="button" class="btn btn-lg btn-block btn-dark text-decoration-none">¡Me encanta!</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -363,6 +454,7 @@
             </div>
         </footer>
     </div>
+
     <!-- JS Particles.js -->
     <script src="/img/Librerias/particles.js-master/particles.min.js"></script>
     <script src="/src/Index/Index-JS/app.js"></script>

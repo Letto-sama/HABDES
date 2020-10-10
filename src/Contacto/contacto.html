@@ -7,7 +7,7 @@
     <title>Habdes</title>
     <link rel="icon" href="/img/Logo/favicon.ico" sizes="16x16">
     <link href="/img/Logo/favicon-16x16.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
-    <link rel="stylesheet" href="/src/Index/index.css">
+    <link rel="stylesheet" href="/src/Marketing/marketing.css">
     <link data-react-helmet="true" rel="preload"
         href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&amp;display=swap" as="style">
     <script src="https://kit.fontawesome.com/b693463453.js" crossorigin="anonymous"></script>
@@ -25,16 +25,11 @@
     -->
 </head>
 
-<body onload="myFunction()">
-    <!-- ID Particles.js -->
-    <!--
-    <div id="particles-js"></div>
-    <div id="loader"></div>
-    -->
+<body onload="myFunction()" style="margin:0;">
+    <!-- <div id="loader"></div> -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm p-3 mb-5 bg-white rounded">
         <div class="container">
-            <a class="navbar-brand habdes-name" href="/index.html" style="font-size: 28px;"><img
-                    src="/img/Logo/Logo-Habdes.png" width="50" height="50">HABDES</a>
+            <a class="navbar-brand habdes-name" href="/index.html" style="font-size: 28px;">HABDES</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07"
                 aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -196,123 +191,54 @@
             </div>
         </div>
     </nav>
-    <!-------------------------CUERPO---------------------------->
-    <!--------------SECTION_1------------------>
-    <section class="container-md justify-content-center pb-3">
-        <div class="row">
-            <div class="col-6 col-md-6 text-left">
-                <h1>
-                    Transformación digital para tu negocio
-                </h1>
-                <p>Te ayudamos a dar el primer paso, que tu negocio necesita, hacia la era digital</p>
-                <p>Prueba la demo de tu futura página web</p>
+    <!-------------------------SECTION---------------------------->
+    <section class="py-2 container ">
+        <div class="text-center container py-2 ">
+            <h1>Empecemos tu proyecto</h1>
+            <h5 class="text-black-50">Es hora de redefinir cómo se ve realmente lo asombroso</h5>
+        </div>
+        <div class="row rounded bg-secondary align-middle my-4 py-4">
+            <div class="col-md-6 p-4 text-white ">
+                <h2>Transforma tus ideas</h2>
+                <h2>Da vida a tus proyectos</h2>
+                <h5 class="font-weight-light">We can’t wait to hear from you. Share your thoughts below and we’ll get back in touch shortly to get the ball rolling.</h5>
+                <h5 class="font-weight-light">Let’s make your ideas happen.</h5>
+                <p class="text-white-50">Handy Tip: Tell us about your idea and your planned budget, so we can provide more specific info, tailored to your needs.</p>
             </div>
-            <div class="col-6 col-md-6">
-                <img src="/img/Imagenes/Imagen3.svg" class="img-fluid" style="width: 500px;height: 500px;">
+            <div class="col-md-6 p-4">
+                <form >
+                    <div class="form-row py-3">
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Nombre de la compañia">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico">
+                    </div>
+                    <div class="form-group">
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option value disabled selected>¿Comó escuchaste de nosotros?</option>    
+                        <option>Facebook</option>
+                        <option>Linkedin</option>
+                        <option>Instagram</option>
+                        <option>Amigos</option>
+                        <option>Otros</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="¿Comó podemos ayudar?"></textarea>
+                    </div>
+                </form>
+                <button type="button" class="boton_contacto w-100">Enviar</button>
             </div>
         </div>
-    </section>
-    <!--------------SECTION_2------------------>
-    <section class="justify-content-center py-5">
-        <div class="text-center">
-            <div class="bg-dark text-white py-3">
-                <h5>
-                    Te presentamos
-                </h5>
-                <h1>
-                    Nuestros servicios:
-                </h1>
-            </div>
-            <div class="container-md pt-5">
-                <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link active text-black-50" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                            aria-controls="home" aria-selected="true">Páginas web</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link text-black-50" id="profile-tab" data-toggle="tab" href="/src/Error/404.html" role="tab"
-                            aria-controls="profile" aria-selected="false">Herramientas digitales</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link text-black-50" id="contact-tab" data-toggle="tab" href="/src/Error/404.html" role="tab"
-                            aria-controls="contact" aria-selected="false">Plataformas digitales</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link text-black-50" id="contact-tab" data-toggle="tab" href="#Diseñador_personalizado" role="tab"
-                            aria-controls="contact" aria-selected="false">Diseñador personalizado</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link text-black-50" id="contact-tab" data-toggle="tab" href="#Marketing_digital" role="tab"
-                            aria-controls="contact" aria-selected="false">Marketing digital</a>
-                    </li>
-                </ul>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active pt-4" id="home" role="tabpanel" aria-labelledby="home-tab">
-                        <div class="row container-md ">
-                            <div class="col-md-auto pl-5 ">
-                                <img src="/img/Imagenes/imagen4.svg" style="width: 230px;height: 230px;">
-                            </div>
-                            <div class="col-md-auto p-5">
-                                <h5>Desarrollamos tu el activo digital que tu negocio necesita</h5>
-                                <ul class="list-unstyled text-small text-left">
-                                    <li>- Landing Page</li>
-                                    <li>- Web Corporativa</li>
-                                    <li>- Tienda Virtual</li>
-                                    <li>- Blog</li>
-                                </ul>
-                                <a href="/src/Contacto/contacto.html" class="pl-5">
-                                    <button type="button" class="boton_contacto">¡Lo quiero!</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                        
-                    </div>
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                        
-                    </div>
-                    <div class="tab-pane fade pt-4" id="Diseñador_personalizado" role="tabpanel" aria-labelledby="contact-tab">
-                        <div class="row">
-                            <div class="col-md-auto pl-5">
-                                <img src="/img/Imagenes/undraw_add_color_19gv.svg" style="width: 200px;height: 200px;">
-                            </div>
-                            <div class="col-md-auto p-5">
-                                <h5 class="text-left">Habdes te brinda un diseñador que se ajusta a tus ideas por el tiempo que necesites</h5>
-                                <ul class="list-unstyled text-small text-left">
-                                    <li>- Un solo precio mensual</li>
-                                    <li>- Sin contratos</li>
-                                    <li>- Cancela cuando quieras</li>                        
-                                </ul>
-                                <a href="/src/Diseñador/diseñador.html">
-                                    <button type="button" class="boton_contacto">¡Me interesa!</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade pt-4" id="Marketing_digital" role="tabpanel" aria-labelledby="contact-tab">
-                        <div class="row">
-                            <div class="col-md-auto pl-5">
-                                <img src="/img/Imagenes/undraw_social_thinking_7ule.svg" style="width: 250px;height: 250px;">
-                            </div>
-                            <div class="col-md-auto p-5">
-                                <h5 class="text-left">Impulsemos tu presencia en el mundo digital, nosotros sabemos como</h5>
-                                <ul class="list-unstyled text-small text-left">
-                                    <li>- Redes sociales</li>
-                                    <li>- Publicidad digital</li>
-                                    <li>- Generación de contenido digital</li>
-                                </ul>
-                                <a href="/src/Diseñador/diseñador.html">
-                                    <button type="button" class="boton_contacto">¡Me gusta!</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </section>
     <!-------------------------FOOTER---------------------------->
+
     <div class="bg-light">
         <footer class="container py-5">
             <div class="row">

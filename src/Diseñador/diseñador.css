@@ -1,0 +1,35 @@
+.boton {
+    list-style: none;
+    color: red;
+    background: red;
+}
+.boton_contacto {
+    width: 170px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    cursor: none;
+    transition: all 0.2s ease-in 0s;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(98deg, rgb(48, 165, 102), rgb(0, 141, 135));
+}
+.boton_contacto_alterno {
+    width: 170px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    cursor: none;
+    transition: all 0.2s ease-in 0s;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(98deg, #B396EA, #6F42C1);
+}
+.BORRAR {
+    border: 1px solid black;
+
+}
