@@ -48,8 +48,11 @@ body {
     background: linear-gradient(98deg, rgb(48, 165, 102), rgb(0, 141, 135));
 }
 .BORRAR {
-    border: 1px solid black;
+    border: 3px solid black;;
 
+}
+.MODIFICADOR-1 {
+    z-index: 0;
 }
 
 
