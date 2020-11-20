@@ -83,20 +83,73 @@
     <!---------------DATOS ESTRUCTURADOS--------------->
     <script type="application/ld+json">
     {
-      "@context": "http://habdes.pe",
-      "@type": "WebSite",
-      "url": "http://habdes.pe/",
-      "potentialAction": [{
-        "@type": "SearchAction",
-        "target": "http://habdes.pe/search?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      },{
-        "@type": "SearchAction",
-        "target": "android-app://com.example/https/query.example.com/search/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }]
-
-    }
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "http://www.habdes.pe/#organization",
+                "name": "Habdes",
+                "url": "http://www.habdes.pe/",
+                "sameAs": [],
+                "logo": {
+                    "@type": "ImageObject",
+                    "@id": "http://www.habdes.pe/#logo",
+                    "inLanguage": "es",
+                    "url": "http://www.habdes.pe/img/Logo/Logo-Habdes.png",
+                    "width": 100,
+                    "height": 109,
+                    "caption": "Habdes"
+                },
+                "image": {
+                    "@id": "http://www.habdes.pe/#logo"
+                }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "http://habdes.pe/#website",
+                "url": "http://habdes.pe/",
+                "name": "Habdes",
+                "description": "Desarrollo de productos y plataformas digitales",
+                "publisher": {
+                    "@id": "http://www.habdes.pe/#organization"
+                },
+                "potentialAction": [
+                    {
+                        "@type": "SearchAction",
+                        "target": "http://habdes.pe/search?q={search_term_string}",
+                        "query-input": "required name=search_term_string"
+                    }
+                ],
+                "inLanguage": "es"
+            },
+            {
+                "@type": "WebPage",
+                "@id": "http://www.habdes.pe/#webpage",
+                "url": "http://www.habdes.pe/",
+                "name": "Habdes | Desarrollo de productos y plataformas digitales",
+                "isPartOf": {
+                    "@id": "http://www.habdes.pe/#website"
+                },
+                "about": {
+                    "@id": "http://www.habdes.pe/#organization"
+                },
+                "primaryImageOfPage": {
+                    "@id": "http://www.habdes.pe/#primaryimage"
+                },
+                "datePublished": "2020-11-20T12:00:00+00:00",
+                "dateModified": "2020-11-19T12:00:00+00:00",
+                "inLanguage": "es",
+                "potentialAction": [
+                    {
+                        "@type": "ReadAction",
+                        "target": [
+                            "http://www.habdes.pe/"
+                        ]
+                    }
+                ]
+            }
+        ]
+    } 
     </script>
     <meta name="google" content="nositelinkssearchbox" />
 
