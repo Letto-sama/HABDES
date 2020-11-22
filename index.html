@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Habdes | Desarrollo de productos y plataformas digitales</title>
-    <link rel="icon" href="/img/Logo/favicon.ico" sizes="16x16">
-    <link href="/img/Logo/favicon-16x16.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
+    <link rel="icon" href="/img/Logo/SVG Logo oscuro - Habdes.svg" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="/src/Index/index.css">
     <!-- Google Tag Manager -->
     <script>
@@ -83,20 +82,73 @@
     <!---------------DATOS ESTRUCTURADOS--------------->
     <script type="application/ld+json">
     {
-      "@context": "http://habdes.pe",
-      "@type": "WebSite",
-      "url": "http://habdes.pe/",
-      "potentialAction": [{
-        "@type": "SearchAction",
-        "target": "http://habdes.pe/search?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      },{
-        "@type": "SearchAction",
-        "target": "android-app://com.example/https/query.example.com/search/?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }]
-
-    }
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "http://www.habdes.pe/#organization",
+                "name": "Habdes",
+                "url": "http://www.habdes.pe/",
+                "sameAs": [],
+                "logo": {
+                    "@type": "ImageObject",
+                    "@id": "http://www.habdes.pe/#logo",
+                    "inLanguage": "es",
+                    "url": "http://www.habdes.pe/img/Logo/Logo-Habdes.png",
+                    "width": 100,
+                    "height": 109,
+                    "caption": "Habdes"
+                },
+                "image": {
+                    "@id": "http://www.habdes.pe/#logo"
+                }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "http://habdes.pe/#website",
+                "url": "http://habdes.pe/",
+                "name": "Habdes",
+                "description": "Desarrollo de productos y plataformas digitales",
+                "publisher": {
+                    "@id": "http://www.habdes.pe/#organization"
+                },
+                "potentialAction": [
+                    {
+                        "@type": "SearchAction",
+                        "target": "http://habdes.pe/search?q={search_term_string}",
+                        "query-input": "required name=search_term_string"
+                    }
+                ],
+                "inLanguage": "es"
+            },
+            {
+                "@type": "WebPage",
+                "@id": "http://www.habdes.pe/#webpage",
+                "url": "http://www.habdes.pe/",
+                "name": "Habdes | Desarrollo de productos y plataformas digitales",
+                "isPartOf": {
+                    "@id": "http://www.habdes.pe/#website"
+                },
+                "about": {
+                    "@id": "http://www.habdes.pe/#organization"
+                },
+                "primaryImageOfPage": {
+                    "@id": "http://www.habdes.pe/#primaryimage"
+                },
+                "datePublished": "2020-11-20T12:00:00+00:00",
+                "dateModified": "2020-11-19T12:00:00+00:00",
+                "inLanguage": "es",
+                "potentialAction": [
+                    {
+                        "@type": "ReadAction",
+                        "target": [
+                            "http://www.habdes.pe/"
+                        ]
+                    }
+                ]
+            }
+        ]
+    } 
     </script>
     <meta name="google" content="nositelinkssearchbox" />
 
@@ -126,7 +178,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-6 card border-0 p-4">
-                                        <a href="/src/PaginasWeb/paginas_web.html"
+                                        <a href="http://themes.habdes.pe/" target="_blank" 
                                             class="text-decoration-none text-secondary">
                                             <div class="row ">
                                                 <div class="col-sm-6 p-2">
@@ -141,7 +193,7 @@
                                         </a>
                                     </div>
                                     <div class="col-sm-6 card border-0 p-4">
-                                        <a href="/src/PaginasWeb/paginas_web.html"
+                                        <a href="http://themes.habdes.pe/" target="_blank"
                                             class="text-decoration-none text-secondary">
                                             <div class="row">
                                                 <div class="col-sm-6 d-inline p-2">
@@ -156,7 +208,7 @@
                                         </a>
                                     </div>
                                     <div class="col-sm-6 card border-0 p-4">
-                                        <a href="/src/PaginasWeb/paginas_web.html"
+                                        <a href="http://themes.habdes.pe/" target="_blank"
                                             class="text-decoration-none text-secondary">
                                             <div class="row">
                                                 <div class="col-sm-6 d-inline p-2">
@@ -171,7 +223,7 @@
                                         </a>
                                     </div>
                                     <div class="col-sm-6 card border-0 p-4">
-                                        <a href="/src/PaginasWeb/paginas_web.html"
+                                        <a href="http://themes.habdes.pe/" target="_blank"
                                             class="text-decoration-none text-secondary">
                                             <div class="row">
                                                 <div class="col-sm-6 d-inline p-2">
@@ -404,10 +456,10 @@
                 <div class="col-6 col-md">
                     <h5>Productos</h5>
                     <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="/src/PaginasWeb/paginas_web.html">Landing Page</a></li>
-                        <li><a class="text-muted" href="/src/PaginasWeb/paginas_web.html">Web Corporativa</a></li>
-                        <li><a class="text-muted" href="/src/PaginasWeb/paginas_web.html">Blog personal</a></li>
-                        <li><a class="text-muted" href="/src/PaginasWeb/paginas_web.html">Tienda virtual</a></li>
+                        <li><a class="text-muted" href="http://themes.habdes.pe/" target="_blank">Landing Page</a></li>
+                        <li><a class="text-muted" href="http://themes.habdes.pe/" target="_blank">Web Corporativa</a></li>
+                        <li><a class="text-muted" href="http://themes.habdes.pe/" target="_blank">Blog personal</a></li>
+                        <li><a class="text-muted" href="http://themes.habdes.pe/" target="_blank">Tienda virtual</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md">

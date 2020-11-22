@@ -1,0 +1,26 @@
+.BORDER {
+    border: 1px solid black;
+}
+
+.color_texto {
+    color: #1FA0EB;
+}
+.FONDO {
+    background: #1FA0EB;
+}
+.ONDAS {
+    z-index: -1;
+    opacity: 0.1;
+    position: absolute;
+    top: 1850px;
+    width: 100%;
+} 
+.BANNER {
+    opacity: 0.6;
+}
+.TEXTO {
+    z-index: 1;
+    position: absolute;
+    top: 450px;
+    width: 100%;
+} 

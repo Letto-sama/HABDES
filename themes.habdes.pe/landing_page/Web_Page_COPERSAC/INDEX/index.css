@@ -1,0 +1,177 @@
+* {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+.barra-navegacion {
+    display: flex;
+    justify-content: space-between;
+}
+.logo-menu {
+    margin: 0.9em 0 0 2em;
+}
+.menu {
+    overflow: auto;
+    min-height: 60px;
+    padding: 0.7em 0 1em 0;
+    margin: 0 0 0 0;
+}
+.menu a:not(.icono){
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 19px 16px 33px;
+    transition: all 0.3s linear;
+    text-decoration: none;
+}
+.icono {
+    color: black;
+    padding: 19px 16px 27px;
+    margin: -15px 0 -20px 0;
+}
+.menu a:hover:not(:first-child) {
+    background-color: #2980b9;
+    color: white;
+}
+.menu a.icono {
+    display: none;
+}
+/*----------------------------------BANNER-PRINCIPAL----------------------------------*/
+
+
+/*----------------------------------NOSOTROS----------------------------------*/
+.fas {
+    font-size: 50px;
+}
+.seccion-nosotros {
+
+    text-align: center;
+}
+.seccion-nosotros-titulo {
+    font-size: 40px;
+    padding: 0 5em 0 5em;
+}
+.seccion-nosotros-texto p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+.seccion-nosotros-texto div {
+    padding: 2em 1em 2em 1em;
+    overflow: hidden;
+}
+/*----------------------------------NUMEROS----------------------------------*/
+.seccion-numeros {
+    background: #2980b9;
+    color: white;
+}
+.seccion-numeros div{
+    text-align: center;
+}
+/*----------------------------------SERVICIOS----------------------------------*/
+.seccion-servicios {
+    text-align: center;
+}
+.seccion-servicios-titulo {
+    font-size: 40px;
+    padding: 1em 5em 1em 5em;
+}
+.seccion-servicios-detalle {
+    padding: 0 0 3em 0;
+}
+/*----------------------------------FOOTER----------------------------------*/
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+}
+/*----------------------------------RESPONSIVE----------------------------------*/
+.banner-principal img{
+    width: 100%;
+    height: 20%;
+}
+.seccion-servicios-detalle img {
+    width: 100%;
+    height: auto;
+}
+
+/*-----------MENU-----------*/
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+@media (min-width: 768px) {
+    .seccion-servicios-detalle {
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+    .seccion-numeros {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 100%;
+    }
+    .banner-principal img{
+        width: 100%;
+        height: 650px;
+    }
+}
+
+/*----------------------------------NAV-BAR-RESPONSIVE----------------------------------*/
+/*NAVIGATION BAR*/
+@media screen and (max-width: 768px) {
+    .menu a:not(.icono){
+        display: none;
+    }
+    .menu a.icono {
+        float: right;
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    .menu.responsive {position: relative;}
+    .menu.responsive a.icono {
+      position: absolute;
+      right: 0;
+      top: 14px;
+    }
+    .menu.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .menu.responsive a:not(.icono) {
+        min-width: 500px;
+    }
+  }
+
